@@ -1,0 +1,7 @@
+chrome_profile/
+.env
+.env.*
+tokens.json
+load_tokens.js
+load_env.mjs
+*.log
