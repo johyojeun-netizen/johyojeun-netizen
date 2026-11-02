@@ -1,6 +1,6 @@
 | [KR 한국어](./ko.md) | [US English](../../README.md) | [JP 日本語](./ja.md) | [CN 简体中文](./zh-CN.md) | [ES Español](./es.md) |
 | :---: | :---: | :---: | :---: | :---: |
-| [FR Français](./fr.md) | [DE Deutsch](./de.md) | [RU Русский](./ru.md) | [BR Português](./pt-BR.md) | [SA العربية](./ar.md) |
+| [FR Français](./fr.md) | [DE Deutsch](./de.md) | [RU Русский](./ru.md) | [SA العربية](./ar.md) | [IN हिन्दी](./hi.md) |
 
 ---
 
@@ -13,7 +13,7 @@
 / /_/ / /_/ / / / / /_/ / /_/ / /  __/ /_/ / / / /      
 \____/\____/_/ /_/\__, /\____/_/\___/\__,_/_/ /_/       
                  /____/                                 
- Engenheiro de Áudio Espacial & DSP em Tempo Real · Seul / Berlim
+ Engenheiro Sênior de Sistemas & DSP de Áudio em Tempo Real · Seul / Berlim
 ```
 
 > "Rigor absoluto em tempo real rígido, fidelidade acústica matemática e modelagem física tangível do som."
@@ -44,7 +44,7 @@ Além do desenvolvimento de software comercial, projeto módulos de sintetizador
 | **C (C99 / C11)** | Nível Avançado | Microcontroladores embarcados, codecs de áudio bare-metal, camadas de abstração de hardware |
 | **Zig** | Nível Intermediário | Compilação cruzada, utilitários CLI de áudio ultraleves, runtimes mínimos |
 | **Python** | Nível Competente | Cálculo de coeficientes de filtro, deconvolução de respostas ao impulso, modelagem acústica |
-| **POSIX Shell / Make / CMake** | Nível Competente | Sistemas de build multiplataforma, ajuste de kernel Linux em tempo real, testes automatizados |
+| **POSIX Shell / Make / CMake** | Nível Competente | Sistemas de build multiplataforma, ajuste de kernel Linux em tempo real, suítes reproduzíveis de benchmark |
 
 ### DSP, Acústica Espacial & Arquitetura de Áudio
 

@@ -1,6 +1,6 @@
 | [KR 한국어](./docs/locales/ko.md) | [US English](./README.md) | [JP 日本語](./docs/locales/ja.md) | [CN 简体中文](./docs/locales/zh-CN.md) | [ES Español](./docs/locales/es.md) |
 | :---: | :---: | :---: | :---: | :---: |
-| [FR Français](./docs/locales/fr.md) | [DE Deutsch](./docs/locales/de.md) | [RU Русский](./docs/locales/ru.md) | [BR Português](./docs/locales/pt-BR.md) | [SA العربية](./docs/locales/ar.md) |
+| [FR Français](./docs/locales/fr.md) | [DE Deutsch](./docs/locales/de.md) | [RU Русский](./docs/locales/ru.md) | [SA العربية](./docs/locales/ar.md) | [IN हिन्दी](./docs/locales/hi.md) |
 
 ---
 
@@ -13,7 +13,7 @@
 / /_/ / /_/ / / / / /_/ / /_/ / /  __/ /_/ / / / /      
 \____/\____/_/ /_/\__, /\____/_/\___/\__,_/_/ /_/       
                  /____/                                 
- Spatial Audio & Real-Time DSP Engineer · Seoul / Berlin
+ Senior Systems & Real-Time Audio DSP Engineer · Seoul / Berlin
 ```
 
 > "Strict real-time safety, mathematical acoustic fidelity, and tactile physical sound modeling."
@@ -44,7 +44,7 @@ Outside commercial plugin work, I build DIY Eurorack modules, conduct impulse re
 | **C (C99 / C11)** | Advanced | Embedded microcontrollers, bare-metal audio codecs, platform abstraction layers |
 | **Zig** | Intermediate | Cross-compilation toolchains, standalone audio CLI utilities, lightweight runtimes |
 | **Python** | Proficient | Filter coefficient calculation, impulse response deconvolution, acoustic modeling |
-| **POSIX Shell / Make / CMake** | Proficient | Multi-platform build systems, real-time Linux kernel configuration, automated benchmarks |
+| **POSIX Shell / Make / CMake** | Proficient | Multi-platform build systems, real-time Linux kernel configuration, reproducible benchmark suites |
 
 ### DSP, Audio Architecture & Acoustics
 

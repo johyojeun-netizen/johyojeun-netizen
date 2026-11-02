@@ -3,10 +3,10 @@
 ## 1. Profile Settings (Settings -> Profile)
 
 - **Full Name**: `Johyo Jeun` (또는 `조효준 / Johyo Jeun`)
-- **Job Title**: `Spatial Audio & Real-Time DSP Systems Engineer`
-- **Bio** (246자 / 250자 제한):
+- **Job Title**: `Senior Systems & Real-Time Audio DSP Engineer`
+- **Bio** (248자 / 250자 제한):
   ```text
-  Audio DSP & systems engineer in Seoul/Berlin. Obsessed with hard real-time audio threads, lock-free ring buffers, spatial HRTF convolution, and physical acoustic modeling. Building low-latency audio runtimes with C++23, Rust & Linux RT-PREEMPT.
+  Systems & audio DSP engineer in Seoul/Berlin. Focused on hard real-time audio threads, lock-free ring buffers, spatial HRTF convolution, and physical acoustic modeling. Building low-latency audio runtimes with C++23, Rust & Linux RT-PREEMPT.
   ```
 - **Location**: `Seoul, South Korea · Berlin, Germany`
 - **Website URL**: `https://github.com/johyojeun-netizen`
@@ -18,7 +18,7 @@
 ```markdown
 | [KR 한국어](https://github.com/johyojeun-netizen/johyojeun-netizen/blob/main/docs/locales/ko.md) | [US English](https://github.com/johyojeun-netizen/johyojeun-netizen/blob/main/README.md) | [JP 日本語](https://github.com/johyojeun-netizen/johyojeun-netizen/blob/main/docs/locales/ja.md) | [CN 简体中文](https://github.com/johyojeun-netizen/johyojeun-netizen/blob/main/docs/locales/zh-CN.md) | [ES Español](https://github.com/johyojeun-netizen/johyojeun-netizen/blob/main/docs/locales/es.md) |
 | :---: | :---: | :---: | :---: | :---: |
-| [FR Français](https://github.com/johyojeun-netizen/johyojeun-netizen/blob/main/docs/locales/fr.md) | [DE Deutsch](https://github.com/johyojeun-netizen/johyojeun-netizen/blob/main/docs/locales/de.md) | [RU Русский](https://github.com/johyojeun-netizen/johyojeun-netizen/blob/main/docs/locales/ru.md) | [BR Português](https://github.com/johyojeun-netizen/johyojeun-netizen/blob/main/docs/locales/pt-BR.md) | [SA العربية](https://github.com/johyojeun-netizen/johyojeun-netizen/blob/main/docs/locales/ar.md) |
+| [FR Français](https://github.com/johyojeun-netizen/johyojeun-netizen/blob/main/docs/locales/fr.md) | [DE Deutsch](https://github.com/johyojeun-netizen/johyojeun-netizen/blob/main/docs/locales/de.md) | [RU Русский](https://github.com/johyojeun-netizen/johyojeun-netizen/blob/main/docs/locales/ru.md) | [SA العربية](https://github.com/johyojeun-netizen/johyojeun-netizen/blob/main/docs/locales/ar.md) | [IN हिन्दी](https://github.com/johyojeun-netizen/johyojeun-netizen/blob/main/docs/locales/hi.md) |
 
 ---
 
@@ -31,12 +31,12 @@
 / /_/ / /_/ / / / / /_/ / /_/ / /  __/ /_/ / / / /      
 \____/\____/_/ /_/\__, /\____/_/\___/\__,_/_/ /_/       
                  /____/                                 
- Spatial Audio & Real-Time DSP Systems Engineer · Seoul / Berlin
+ Senior Systems & Real-Time DSP Engineer · Seoul / Berlin
 ```
 
 > "Hard real-time audio guarantees, deterministic memory layouts, and continuous verification of acoustic DSP pipelines."
 
-I am an audio digital signal processing (DSP) and low-level systems engineer. On GitLab, my primary focus is maintaining continuous verification pipelines and automated hardware-in-the-loop (HIL) testbeds for real-time audio systems: bit-exact regression testing, memory allocation detection in audio callbacks, SIMD cycle-accuracy verification across compiler revisions, and kernel preemption stress testing under Linux `PREEMPT_RT`.
+I am an audio digital signal processing (DSP) and low-level systems engineer. On GitLab, my primary focus is maintaining continuous verification pipelines and hardware-in-the-loop (HIL) testbeds for real-time audio systems: bit-exact regression testing, memory allocation detection in audio callbacks, SIMD cycle-accuracy verification across compiler revisions, and kernel preemption stress testing under Linux `PREEMPT_RT`.
 
 ---
 
@@ -46,8 +46,8 @@ I am an audio digital signal processing (DSP) and low-level systems engineer. On
 | :--- | :--- | :--- | :--- |
 | **`dsp-rt-guard`** | Linux 6.x `PREEMPT_RT` | Audio Callback Safety | Static and dynamic analysis verifying zero dynamic allocation (`malloc`/`new`), zero mutexes, and zero system calls inside hot audio processing loops. |
 | **`simd-parity-matrix`** | GCC 14, Clang 18, Rust | Numerical Parity | Cross-compilation test matrix validating IEEE 754 bit-exact float output across AVX2, AVX-512, and ARM NEON vectorization backends. |
-| **`alsa-jack-stress`** | ALSA, PipeWire, JACK2 | Hardware I/O Stress | Automated 24-hour cyclic buffer under-run (xrun) endurance testing under extreme synthetic CPU and I/O pressure. |
-| **`sofa-hrtf-validator`** | C++23, Python, SOFA | Spatial Acoustic Data | Automated validation of multi-channel HRTF impulse responses, checking reciprocity, causality, and phase linearity. |
+| **`alsa-jack-stress`** | ALSA, PipeWire, JACK2 | Hardware I/O Stress | Continuous 24-hour cyclic buffer under-run (xrun) endurance testing under extreme synthetic CPU and I/O pressure. |
+| **`sofa-hrtf-validator`** | C++23, Python, SOFA | Spatial Acoustic Data | Deterministic validation of multi-channel HRTF impulse responses, checking reciprocity, causality, and phase linearity. |
 
 ---
 

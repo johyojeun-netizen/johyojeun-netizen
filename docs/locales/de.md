@@ -1,6 +1,6 @@
 | [KR 한국어](./ko.md) | [US English](../../README.md) | [JP 日本語](./ja.md) | [CN 简体中文](./zh-CN.md) | [ES Español](./es.md) |
 | :---: | :---: | :---: | :---: | :---: |
-| [FR Français](./fr.md) | [DE Deutsch](./de.md) | [RU Русский](./ru.md) | [BR Português](./pt-BR.md) | [SA العربية](./ar.md) |
+| [FR Français](./fr.md) | [DE Deutsch](./de.md) | [RU Русский](./ru.md) | [SA العربية](./ar.md) | [IN हिन्दी](./hi.md) |
 
 ---
 
@@ -13,7 +13,7 @@
 / /_/ / /_/ / / / / /_/ / /_/ / /  __/ /_/ / / / /      
 \____/\____/_/ /_/\__, /\____/_/\___/\__,_/_/ /_/       
                  /____/                                 
- Ingenieur für Raumakustik & Echtzeit-DSP · Seoul / Berlin
+ Senior-System- & Echtzeit-Audio-DSP-Ingenieur · Seoul / Berlin
 ```
 
 > "Strikte Hard-Realtime-Sicherheit, mathematische akustische Präzision und greifbare physikalische Klangmodellierung."
@@ -44,7 +44,7 @@ Neben kommerziellen Audio-Plugins entwerfe ich analoge und digitale Eurorack-Syn
 | **C (C99 / C11)** | Fortgeschritten | Eingebettete Mikrocontroller, Bare-Metal-Audiocodecs, Hardware-Abstraktionsschichten |
 | **Zig** | Mittelstufe | Cross-Compilation-Pipelines, eigenständige Audio-CLI-Werkzeuge, schlanke Runtimes |
 | **Python** | Fundiert | Filterkoeffizienten-Berechnung, Deconvolution von Impulsantworten, akustische Modellierung |
-| **POSIX Shell / Make / CMake** | Fundiert | Plattformübergreifende Build-Systeme, Echtzeit-Kernel-Konfiguration, automatische Benchmarks |
+| **POSIX Shell / Make / CMake** | Fundiert | Plattformübergreifende Build-Systeme, Echtzeit-Kernel-Konfiguration, reproduzierbare Benchmark-Suiten und Latenzanalysen |
 
 ### Audio-DSP, Raumakustik & Systemarchitektur
 

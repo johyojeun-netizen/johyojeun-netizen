@@ -1,6 +1,6 @@
 | [KR 한국어](./ko.md) | [US English](../../README.md) | [JP 日本語](./ja.md) | [CN 简体中文](./zh-CN.md) | [ES Español](./es.md) |
 | :---: | :---: | :---: | :---: | :---: |
-| [FR Français](./fr.md) | [DE Deutsch](./de.md) | [RU Русский](./ru.md) | [BR Português](./pt-BR.md) | [SA العربية](./ar.md) |
+| [FR Français](./fr.md) | [DE Deutsch](./de.md) | [RU Русский](./ru.md) | [SA العربية](./ar.md) | [IN हिन्दी](./hi.md) |
 
 ---
 
@@ -13,7 +13,7 @@
 / /_/ / /_/ / / / / /_/ / /_/ / /  __/ /_/ / / / /      
 \____/\____/_/ /_/\__, /\____/_/\___/\__,_/_/ /_/       
                  /____/                                 
- Ingeniero de Audio Espacial y DSP en Tiempo Real · Seúl / Berlín
+ Ingeniero Senior de Sistemas y DSP de Audio en Tiempo Real · Seúl / Berlín
 ```
 
 > "Estricta seguridad en tiempo real duro, fidelidad acústica matemática y modelado físico táctil del sonido."

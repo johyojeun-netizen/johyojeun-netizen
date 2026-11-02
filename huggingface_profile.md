@@ -5,15 +5,15 @@
 - **Full Name**: `Johyo Jeun` (또는 `조효준 / Johyo Jeun`)
 - **Bio** (Markdown 지원):
   ```text
-  Audio DSP engineer bridging acoustic wave mechanics and neural signal processing: SOFA binaural HRTF dataset curation, differentiable physical acoustic modeling, and zero-latency real-time neural audio inference on CPU/SIMD.
+  Senior Audio DSP & Systems Engineer. Researching mathematical wave mechanics, high-resolution spatial HRTF datasets (SOFA/AES69), and deterministic SIMD audio processing algorithms.
   ```
 - **GitHub Username**: `johyojeun-netizen`
 - **Homepage / Website**: `https://github.com/johyojeun-netizen`
 - **Interests (Tags)**:
   - `audio-dsp`
-  - `spatial-audio-hrtf`
-  - `differentiable-acoustics`
-  - `neural-audio-synthesis`
+  - `spatial-audio`
+  - `acoustic-modeling`
+  - `signal-processing`
   - `real-time-audio`
 
 ---
@@ -23,7 +23,7 @@
 ```markdown
 # Johyo Jeun (`johyojeun`)
 
-**Spatial Audio & Real-Time DSP Systems Engineer**  
+**Senior Systems & Real-Time Audio DSP Engineer**  
 Seoul, South Korea · Berlin, Germany
 
 > *"Treating neural audio as an extension of mathematical wave physics: differentiable acoustic structures, continuous spherical HRTF fields, and zero-allocation CPU inference."*
@@ -34,7 +34,7 @@ I approach machine learning from the perspective of low-level audio digital sign
 
 ## 🔬 Research Focus in Acoustic Machine Learning
 
-- **Differentiable Physical Waveguides**: Combining 2D digital waveguide mesh (DWM) equations with gradient descent to automatically discover physical damping, tension, and boundary reflection coefficients from microphone recordings of acoustic resonant bodies.
+- **Differentiable Physical Waveguides**: Combining 2D digital waveguide mesh (DWM) equations with gradient descent to derive physical damping, tension, and boundary reflection coefficients from microphone recordings of acoustic resonant bodies.
 - **Continuous-Field Spherical HRTF Representation**: Neural representations (SIREN / implicit neural representations) mapping continuous spherical coordinates $(\theta, \phi, r)$ to individualized binaural impulse responses, eliminating spatial interpolation artifacts in 5th-order Ambisonics decoding.
 - **Sub-Millisecond Neural Audio Inference on CPU**: Hand-tuned int8 and float32 1D convolution kernels utilizing AVX-512 and ARM NEON instructions to execute neural audio filtering within a single 64-sample buffer block (< 1.33 ms at 96 kHz) with zero dynamic memory allocation.
 - **High-Fidelity Acoustic Impulse Response Datasets**: Curating calibrated, anechoic-normalized spatial impulse response datasets recorded across architectural spaces, acoustic chambers, and physical resonant materials.
